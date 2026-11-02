@@ -1,65 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amsal Saragih || Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Amsal Saragih | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header> 
-        <a href="#home">Amsal</a> 
-        <div class="navbar"> 
+    
+    <header class="header"> 
+        <a href="#home" class="logo">Amsal.</a> 
+        <nav class="navbar"> 
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contacts">Contacts</a>
-        </div>
-        <hr>  
-   </header> 
+        </nav>
+    </header> 
 
-   <section id="#home">
-    <img src="asset/image.png" alt="logo logoan" width="200" height="200" style="border-radius: 50%">
-    <p> Computer Engineering Student</p>
-    <h1> Amsal Saragih</h1>
-    <p> Karena aku adalah Kekuatan dan Wujud asli cahaya</p>
-    <hr>
+    <main class="container">
+        <!-- Bagian Home -->
+        <section id="home" class="hero">
+            <img src="asset/image.png" alt="Amsal Saragih" class="profile-img">
+            <p class="subtitle">Computer Engineering Student</p>
+            <h1>Amsal Saragih</h1>
+            <p class="quote">"Karena aku adalah Kekuatan dan Wujud asli cahaya."</p>
+        </section>
 
-   </section>
+        <section id="about" class="section"> 
+            <p class="section-label">A little about me</p>
+            <h2>About Me</h2>
+            <p class="description">Mahasiswa Teknik Komputer yang tertarik pada hardware dan kaget menghadapi codingan</p>
+        </section>
 
-   <Section id=" about"> 
-        <p> A little About me</p>
-        <h2> About Me</h2>
-        <p> Ngomongin bola kite jagonye</p>
-        <hr>
-   </Section>
+        <section id="skills" class="section"> 
+            <p class="section-label">What I work with</p>
+            <h2>Tech Skills</h2>
+            <div class="tags-container">
+                <span class="tag">C / C++</span>
+                <span class="tag">Python</span>
+            </div>
+        </section>
 
-   <section id="skills"> 
-        <p>what i work with</p>
-        <h2> Skills</h2>
-        <span>HTML</span>
-        <span>Python</span>
-        <span>Arduino UNO</span>
-        <hr>
-   </section>
+        <section id="projects" class="section">
+            <p class="section-label">My Projects</p>
+            <h2>Featured Projects</h2> 
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Snake Energy Game</h3>
+                    <p>Game 2D interaktif berbasis grid dengan mekanisme speed progression .</p>
+                </div>
+                <div class="card">
+                    <h3>Suka Suka</h3>
+                    <p>Bisa tiba tiba .</p>
+                </div>
+            </div>
+        </section>
 
-   <section id="Projects">
-        <p>My Projects</p>
-        <h2> Projects</h2> 
-        <p> NINUNINU</p>
-        <p> WOKWOK</p>
+        <section id="contacts" class="section center-text">
+            <h2>Contacts</h2>
+            <div class="contact-links">
+                <a href="mailto:amsalsaragih118@gmail.com" class="btn">Email Me</a>
+                <a href="https://github.com/amsalsaragih118-create" target="_blank" class="btn btn-outline">GitHub Profile</a>
+                <a class="btn" >📞 +62456789 </a>
+            </div>
+        </section>
+    </main>
 
-        <hr>
+    <footer class="footer">
+        <p> 2026 Amsal Saragih. Portfolio.</p>
+    </footer>
 
-   </section>
-
-   <section id="Contacts">
-        <h2> How to Contacts</h2>
-        <p> Email:Cari sendiri</p> 
-        <p> No.Tlpn: Kapan kapan aja</p>
-        <p> Github: <a href=""  ></a> </p>
-        <hr>
-
-   </section>
 </body>
 </html>
